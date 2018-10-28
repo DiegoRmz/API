@@ -25,8 +25,8 @@ const connectionPool = mySQL.createPool({
     connectionLimit: 1000,
     host: 'localhost',
     port: 3306,
-    user: 'root',
-    password: 'rockDB64',
+    user: 'youruser',
+    password: 'yourpassowrd',
     database: 'aircraft',
     debug: 'true'
 });
